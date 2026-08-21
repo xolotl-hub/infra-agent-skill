@@ -1,3 +1,6 @@
+# 🌐 Plantilla de Infraestructura como Código (Terraform)
+
+```hcl
 terraform {
   required_version = ">= 1.5.0"
   required_providers {
@@ -14,3 +17,4 @@ resource "docker_image" "app" {
   name         = "app:latest"
   keep_locally = false
 }
+```

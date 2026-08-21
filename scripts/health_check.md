@@ -1,3 +1,8 @@
+# 🏥 Script de Health Check de Infraestructura
+
+> **Diagnóstico**: Script Bash para verificar la salud de endpoints tras un despliegue.
+
+```bash
 #!/usr/bin/env bash
 set -euo pipefail
 
@@ -19,3 +24,4 @@ done
 
 echo "❌ ERROR: Health check falló tras $MAX_RETRIES intentos."
 exit 1
+```

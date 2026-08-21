@@ -1,3 +1,6 @@
+# 🔄 Plantilla de Workflow CI/CD (GitHub Actions)
+
+```yaml
 name: CI/CD Pipeline
 
 on:
@@ -24,3 +27,4 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build Container
         run: docker build -t app:${{ github.sha }} .
+```
