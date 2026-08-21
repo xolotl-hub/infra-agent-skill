@@ -48,7 +48,7 @@ graph TD
 ## 📦 Instalación como Submódulo
 
 ```bash
-git submodule add https://github.com/xolotl-hub/infra-agent-skill.git .agents/skills/infra
+git submodule add https://github.com/xolotl-hub/infra-agent-skill.git .skill/infra-agent-skill
 ```
 
 Para activar en la sesión actual:

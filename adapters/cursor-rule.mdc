@@ -5,4 +5,4 @@ globs: ["Dockerfile*", "docker-compose*.yml", ".github/workflows/*.yml", "*.tf"]
 
 # Cursor Infra Skill Rule
 
-Always apply multi-stage Docker patterns, zero-downtime CI/CD workflows, and remote-state IaC principles defined in `.agents/skills/infra/SKILL.md`.
+Always apply multi-stage Docker patterns, zero-downtime CI/CD workflows, and remote-state IaC principles defined in `.skill/infra-agent-skill/SKILL.md`.

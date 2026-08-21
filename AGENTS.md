@@ -9,10 +9,10 @@ description: Transversal Infrastructure, CI/CD, Containerization, IaC, and Deplo
 
 Al detectar `$infra` o tareas relacionadas con Docker, CI/CD, Terraform, Kubernetes, VPS o despliegues, cargar y ejecutar:
 
-1. `.agents/skills/infra/SKILL.md` ← **Directiva principal de la habilidad**
-2. `.agents/skills/infra/core/commands.md`
-3. `.agents/skills/infra/core/brain.md`
-4. `.agents/skills/infra/core/path_map.md`
+1. `.skill/infra-agent-skill/SKILL.md` ← **Directiva principal de la habilidad**
+2. `.skill/infra-agent-skill/core/commands.md`
+3. `.skill/infra-agent-skill/core/brain.md`
+4. `.skill/infra-agent-skill/core/path_map.md`
 
 ## Regla Canónica Agnóstica
 
