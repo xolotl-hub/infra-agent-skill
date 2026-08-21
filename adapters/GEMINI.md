@@ -1,4 +1,6 @@
-# Flutter Agent Rules adapter
+# GEMINI / Antigravity Adapter - Infra Skill
 
-Read and follow `.agents/AGENTS.md` before responding or editing.
-Project state lives in `overview/`. Do not duplicate rules here.
+Al detectar comandos `$infra` o tareas de Docker/CI-CD/Terraform:
+1. Cargar `.agents/skills/infra/AGENTS.md`
+2. Cargar `.agents/skills/infra/SKILL.md`
+3. Aplicar protocolos de containerización y CI/CD agnósticos.

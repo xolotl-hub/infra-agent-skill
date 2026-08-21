@@ -1,7 +1,8 @@
 ---
-description: Flutter Agent Rules bootstrap
-alwaysApply: true
+description: Transversal Infra Agent Skill Rule for Cursor
+globs: ["Dockerfile*", "docker-compose*.yml", ".github/workflows/*.yml", "*.tf"]
 ---
 
-Read and follow `.agents/AGENTS.md` before responding or editing.
-Project state lives in `overview/`. Do not duplicate rules here.
+# Cursor Infra Skill Rule
+
+Always apply multi-stage Docker patterns, zero-downtime CI/CD workflows, and remote-state IaC principles defined in `.agents/skills/infra/SKILL.md`.

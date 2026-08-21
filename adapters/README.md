@@ -1,12 +1,7 @@
-# Adaptadores
+# Infra Agent Skill Adapters
 
-Copiar solo adaptador que reconozca agente:
-
-| Agente | Plantilla | Destino habitual |
-|---|---|---|
-| Codex | `AGENTS.md` | `AGENTS.md` |
-| Claude | `CLAUDE.md` | `CLAUDE.md` |
-| Gemini / Antigravity | `GEMINI.md` | `GEMINI.md` |
-| Cursor | `cursor-rule.mdc` | `.cursor/rules/flutter-agent-rules.mdc` |
-
-Cada archivo solo direcciona a `.agents/AGENTS.md`.
+Archivos de vinculación para entornos de IA:
+- `GEMINI.md`: Adaptador para Google Gemini / Antigravity.
+- `CLAUDE.md`: Adaptador para Anthropic Claude.
+- `AGENTS.md`: Adaptador universal Codex / OpenAI.
+- `cursor-rule.mdc`: Regla de integración para Cursor IDE.

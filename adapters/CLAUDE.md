@@ -1,4 +1,3 @@
-# Flutter Agent Rules adapter
+# Claude Adapter - Infra Skill
 
-Read and follow `.agents/AGENTS.md` before responding or editing.
-Project state lives in `overview/`. Do not duplicate rules here.
+When `$infra` is triggered, refer to `.agents/skills/infra/AGENTS.md` and `.agents/skills/infra/SKILL.md` for Infrastructure, Docker, CI/CD, and IaC guidelines.

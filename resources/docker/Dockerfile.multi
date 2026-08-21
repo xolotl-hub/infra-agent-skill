@@ -1,0 +1,11 @@
+# Dockerfile Multi-stage Template (Agnóstico)
+FROM alpine:3.19 AS builder
+WORKDIR /app
+# Insert build steps here
+
+FROM alpine:3.19 AS runner
+WORKDIR /app
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+USER appuser
+EXPOSE 8080
+CMD ["/app/server"]
